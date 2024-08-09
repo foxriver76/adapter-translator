@@ -1,3 +1,1 @@
-const xy = {}
-
-export default xy;
+export { Translator } from '@/lib/translator.js';
