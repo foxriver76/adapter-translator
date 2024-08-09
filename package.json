@@ -1,0 +1,23 @@
+{
+  "name": "@iobroker/-translator",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "",
+  "main": "build/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@alcalzone/release-script": "^3.8.0",
+    "@foxriver76/eslint-config": "^1.0.5",
+    "tsc-alias": "^1.8.10"
+  },
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "tsc && tsc-alias",
+    "release": "release-script --noPush -y"
+  },
+  "files": [
+    "build"
+  ]
+}
